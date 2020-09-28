@@ -1,0 +1,19 @@
+.mainBlock {
+    height: 100vh;
+    background-color: cadetblue;
+}
+.mainContainer {
+    justify-content: space-between;
+    align-items: center;
+}
+.text {
+    width: 300px;
+    min-height: 250px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.photo, .photo img {
+    width: 300px;
+    border-radius: 10px;
+}
+

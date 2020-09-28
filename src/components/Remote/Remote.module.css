@@ -1,0 +1,17 @@
+.remoteBlock {
+    min-height: 20vh;
+    background-color: darkgray;
+}
+.remote {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.remote button {
+    margin-bottom: 1em;
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
