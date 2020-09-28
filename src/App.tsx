@@ -6,6 +6,7 @@ import MySkills from "./components/Skills/MySkills";
 import Projects from "./components/Projects/Projects";
 import Remote from "./components/Remote/Remote";
 import Contacts from "./components/Contacts/Contacts";
+import Footer from "./components/Footer/Footer";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Projects/>
       <Remote/>
       <Contacts/>
+      <Footer/>
     </div>
   );
 }
