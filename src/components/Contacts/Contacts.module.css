@@ -1,6 +1,6 @@
 .contactsBlock {
-    height: 50vh;
-    background-color: cornsilk;
+    min-height: 50vh;
+    background-color: #333;
 }
 .contactsContainer {
     justify-content: center;
@@ -29,4 +29,9 @@
     height: 60px;
     font-size: 19px;
     border-radius: 10px;
+}
+@media screen and (max-width: 500px) {
+    .contactsContainer form {
+        width: 90%;
+    }
 }
