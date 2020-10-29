@@ -1,0 +1,29 @@
+@import "src/common/styles/sass/mixins";
+
+.mainBlock {
+    height: 100vh;
+    background-color: cadetblue;
+    .mainContainer {
+        @include container();
+        justify-content: space-between;
+        align-items: center;
+        @media screen and (max-width: 1129px){
+            justify-content: center;
+        }
+        .text {
+            width: 300px;
+            min-height: 250px;
+            background-color: aliceblue;
+            border-radius: 10px;
+        }
+        .photo {
+            img {
+                max-width: 300px;
+                border-radius: 10px;
+                @media screen and (max-width: 320px){
+                    max-width: 257px;
+                }
+            }
+        }
+    }
+}

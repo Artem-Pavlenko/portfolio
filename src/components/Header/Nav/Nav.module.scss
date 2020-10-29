@@ -4,8 +4,9 @@
     width: 30%;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    a {
+        text-decoration: none;
+    }
 }
 
-a {
-    text-decoration: none;
-}
+

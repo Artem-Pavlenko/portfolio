@@ -1,0 +1,26 @@
+@import "src/common/styles/sass/variables";
+
+.title {
+    margin: 70px 0 10px;
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        bottom: -3px;
+        background: $mainColor;
+        width: 70px;
+        height: 2px;
+        /*строго по центру*/
+        transform: translate(-50%, 50%);
+        left: 50%;
+    }
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+        margin: 0 0 10px;
+        font-weight: 900;
+        text-transform: capitalize;
+        font-size: 45px;
+        color: $mainColor;
+        line-height: 1.1;
+    }
+}

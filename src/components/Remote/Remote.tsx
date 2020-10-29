@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./Remote.module.css";
+import s from "./Remote.module.scss";
 
 const Remote = () => {
     return (

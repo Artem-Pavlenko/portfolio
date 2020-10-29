@@ -1,0 +1,30 @@
+@import "variables";
+
+@mixin text ($fontFamily, $line-height, $fontSize) {
+  font-family: $fontFamily;
+  color: $mainColor;
+  letter-spacing: 1px;
+  font-size: $fontSize;
+  line-height: $line-height;
+}
+
+@mixin imgCenter () {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@mixin flexCenter () {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin container () {
+  border: 2px dashed;
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}

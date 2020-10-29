@@ -1,6 +1,6 @@
 import React from "react";
-import s from "./Projects.module.css";
-import common from "../../common/styles/Container.module.css"
+import s from "./MyProjects.module.scss";
+import common from "../../common/styles/Container.module.scss"
 import Project from "./project/Project";
 import Title from "../../common/common components/Title";
 import socialImg from "../../assets/people2.jpg"

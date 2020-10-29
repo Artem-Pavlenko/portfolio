@@ -1,6 +1,6 @@
 import React from "react";
-import s from "./Main.module.css"
-import container from "../../common/styles/Container.module.css";
+import s from "./Main.module.scss"
+import container from "../../common/styles/Container.module.scss";
 import MyPhoto from "../../assets/29063381_2026003124336080_1469933082483901931_n.jpg"
 
 const Main = () => {
