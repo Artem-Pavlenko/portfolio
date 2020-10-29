@@ -1,14 +1,13 @@
 import React from "react";
 import s from "./Projects.module.css";
-import Project from "./project/Project";
 import common from "../../common/styles/Container.module.css"
+import Project from "./project/Project";
 import Title from "../../common/common components/Title";
 import socialImg from "../../assets/people2.jpg"
 import TodoImg from "../../assets/ToDo.jpg"
 
 
-
-const Projects = () => {
+const MyProjects = () => {
     const socialNetworkStyle = {
         backgroundImage: `url(${socialImg} )`
     }
@@ -28,7 +27,7 @@ const Projects = () => {
                     />
                     <Project projectName={"Todo list"}
                              projectDescription={"To-do or task list. With the ability to control execution, edit tasks and lists"}
-                            style={todoStyle}
+                             style={todoStyle}
                     />
                 </div>
             </div>
@@ -36,4 +35,4 @@ const Projects = () => {
     )
 }
 
-export default Projects;
+export default MyProjects;

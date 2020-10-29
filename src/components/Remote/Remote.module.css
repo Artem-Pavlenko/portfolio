@@ -17,9 +17,9 @@
 }
 .text {
     background: #fff;
-    border-radius: 100%;
     width: 260px;
     height: 260px;
+    border-radius: 100%;
     margin: 0 auto;
     position: relative;
 }

@@ -3,7 +3,7 @@ import './App.css';
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 import MySkills from "./components/Skills/MySkills";
-import Projects from "./components/Projects/Projects";
+import MyProjects from "./components/Projects/MyProjects";
 import Remote from "./components/Remote/Remote";
 import Contacts from "./components/Contacts/Contacts";
 import Footer from "./components/Footer/Footer";
@@ -15,7 +15,7 @@ function App() {
       <Header/>
       <Main/>
       <MySkills/>
-      <Projects/>
+      <MyProjects/>
       <Remote/>
       <Contacts/>
       <Footer/>

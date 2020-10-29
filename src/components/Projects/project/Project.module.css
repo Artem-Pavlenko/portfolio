@@ -3,7 +3,7 @@
     background-color: #e4e4e4;
     border: 1px dashed;
     border-radius: 3px;
-    margin: 70px 0 ;
+    margin: 70px 0;
 }
 
 .backgroundIcon {
@@ -22,7 +22,7 @@
     width: 65px;
     height: 45px;
     border-radius: 3px;
-    background: rgba(51,51,51,0.5);
+    background: rgba(51, 51, 51, 0.5);
     border: none;
     font-family: 'Montserrat Subrayada', sans-serif;
     color: #e4e4e4;
@@ -34,8 +34,8 @@
 }
 
 .backgroundIcon a:hover {
-    background: rgba(51,51,51,0.1);
-    color: rgb(51,51,51);
+    background: rgba(51, 51, 51, 0.1);
+    color: rgb(51, 51, 51);
     font-weight: 600;
 }
 
@@ -49,12 +49,15 @@
     left: 0;
     opacity: 0.5;
 }
+
 .backgroundIcon:hover::before {
     opacity: 0.2;
 }
+
 .projectInfo {
     padding: 25px 20px;
 }
+
 .projectTitle {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -62,9 +65,11 @@
     margin: 0 0 5px;
     line-height: 1.2;
 }
+
 .description {
     margin: 0 0 10px;
 }
+
 .description span {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
