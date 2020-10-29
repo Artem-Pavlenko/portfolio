@@ -5,7 +5,6 @@ import common from "../../common/styles/Container.module.css"
 import Title from "../../common/common components/Title";
 import socialImg from "../../assets/people2.jpg"
 import TodoImg from "../../assets/ToDo.jpg"
-import styled from "styled-components";
 
 
 
@@ -17,10 +16,6 @@ const Projects = () => {
         backgroundImage: `url(${TodoImg} )`
     }
 
-    const SN = styled.div`
-        background-image: url(${socialImg})
-    `
-
     return (
         <div className={s.projectsBlock}>
             <div className={common.container + " " + s.projectsContainer}>
@@ -29,6 +24,7 @@ const Projects = () => {
                     <Project projectName={"Social Network"}
                              projectDescription={"Social network for finding parties and meeting new people"}
                              style={socialNetworkStyle}
+                             linkProject='https://artem-pavlenko.github.io/social_network'
                     />
                     <Project projectName={"Todo list"}
                              projectDescription={"To-do or task list. With the ability to control execution, edit tasks and lists"}

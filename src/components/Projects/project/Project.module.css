@@ -41,7 +41,8 @@
 
 .backgroundIcon::before {
     content: "";
-    position: absolute;background-color: #232323;
+    position: absolute;
+    background-color: #232323;
     top: 0;
     bottom: 0;
     right: 0;
