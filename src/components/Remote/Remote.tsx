@@ -9,7 +9,7 @@ const Remote = () => {
                     <h2>I'm available for <br/>remote work</h2>
                 </div>
                 <div className={s.email}>
-                    <h3><a href="mailto: rozen19942810@gmail.com">rozen19942810@gmail.com</a></h3>
+                    <h3><a href="mailto: artemdevakk@gmail.com">ArtemDevAkk@gmail.com</a></h3>
                 </div>
             </div>
         </div>

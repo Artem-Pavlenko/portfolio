@@ -1,12 +1,11 @@
 import React from "react";
-import common from "../../common/styles/Container.module.scss";
 import s from "./Contacts.module.scss";
 import Title from "../../common/common components/Title";
 
 const Contacts = () => {
     return (
         <div className={s.contactsBlock}>
-            <div className={common.container + " " + s.contactsContainer}>
+            <div className={s.contactsContainer}>
                 <form action="">
                     <Title title={"contacts"}/>
                     <div className={s.fields}>

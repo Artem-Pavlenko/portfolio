@@ -6,7 +6,7 @@ import MyPhoto from "../../assets/29063381_2026003124336080_1469933082483901931_
 const Main = () => {
     return (
         <div className={s.mainBlock}>
-            <div className={container.container + " " + s.mainContainer}>
+            <div className={s.mainContainer}>
                 <div className={s.text}>
                     <span>Hello World!</span>
                     <h1>I am Artem Pavlenko</h1>
