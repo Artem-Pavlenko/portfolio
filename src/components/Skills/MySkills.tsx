@@ -1,7 +1,7 @@
 import React from "react";
 import s from "./MySkills.module.scss";
 import Skill from "./skill/Skill";
-import Title from "../../common/common components/Title";
+import Title from "../../common/common components/Title/Title";
 import ts from "../../assets/typescript.svg"
 import reactIcon from "../../assets/react.svg"
 import css from "../../assets/css.svg"

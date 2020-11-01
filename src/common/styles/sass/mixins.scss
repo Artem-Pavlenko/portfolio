@@ -1,11 +1,11 @@
 @import "variables";
 
-@mixin text ($fontFamily, $line-height, $fontSize) {
+@mixin text ($fontFamily, $line-height, $fontSize, $color) {
   font-family: $fontFamily;
-  color: $mainColor;
   letter-spacing: 1px;
   font-size: $fontSize;
   line-height: $line-height;
+  color: $color;
 }
 
 @mixin imgCenter () {
@@ -21,7 +21,6 @@
 }
 
 @mixin container () {
-  border: 2px dashed;
   height: 100%;
   width: 80%;
   margin: 0 auto;

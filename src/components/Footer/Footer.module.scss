@@ -1,22 +1,43 @@
 @import "src/common/styles/sass/mixins";
+@import "src/common/styles/sass/variables";
 
 .footerBlock {
-    background-color: olive;
-}
-.footerContainer {
-    @include container();
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    .socialNet {
-        border: 1px dashed;
-        width: 250px;
-        display: flex;
-        justify-content: space-between;
-        img {
-            width: 50px;
-            cursor: pointer;
-            border-radius: 10px;
+    background-color: $bgSecondary;
+    .footerContainer {
+        @include container();
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        a{
+            text-decoration: none;
+            h2{
+                font-size: 22px;
+                color: $textColor;
+                font-family: $TitleFontFamily;
+                letter-spacing: 3px;
+                font-weight: 700;
+                margin-bottom: 20px;
+            }
+        }
+        .socialNet {
+            border: 1px solid white;
+            width: 250px;
+            display: flex;
+            justify-content: space-between;
+            a {
+                img {
+                    width: 50px;
+                    cursor: pointer;
+                    border-radius: 50%;
+                    @include imgCenter();
+                }
+                &:hover{
+                    border-radius: 50%;
+                    box-shadow: 0 0 31px 5px rgba(78,147,230,0.91);
+                }
+            }
+
         }
     }
 }
+

@@ -1,7 +1,8 @@
 @import "src/common/styles/sass/mixins";
+@import "src/common/styles/sass/variables";
 
 .projectsBlock {
-    background-color: #f7f7f7;
+    background-color: $bgPrimary;
     .projectsContainer {
         @include container();
         flex-direction: column;
@@ -9,8 +10,7 @@
         align-items: center;
         flex-wrap: wrap;
         .projects {
-            margin-top: 30px;
-            border: 1px dashed;
+            margin-bottom: 170px;
             width: 100%;
             display: flex;
             justify-content: space-between;

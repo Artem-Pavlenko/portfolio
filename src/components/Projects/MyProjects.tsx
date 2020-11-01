@@ -1,7 +1,7 @@
 import React from "react";
 import s from "./MyProjects.module.scss";
 import Project from "./project/Project";
-import Title from "../../common/common components/Title";
+import Title from "../../common/common components/Title/Title";
 import socialImg from "../../assets/people2.jpg"
 import TodoImg from "../../assets/ToDo.jpg"
 

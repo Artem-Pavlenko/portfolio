@@ -1,8 +1,9 @@
 @import "src/common/styles/sass/mixins";
+@import "src/common/styles/sass/variables";
 
 .mainBlock {
     height: 100vh;
-    background-color: cadetblue;
+    background-color: $bgPrimary;
     .mainContainer {
         @include container();
         justify-content: space-between;
@@ -11,15 +12,38 @@
             justify-content: center;
         }
         .text {
-            width: 300px;
+            position: relative;
             min-height: 250px;
-            background-color: aliceblue;
-            border-radius: 10px;
+            color: $textColor;
+            text-align: left;
+            span{
+                font-size: 16px;
+                font-weight: 600;
+            }
+            h1{
+                font-size: 50px;
+                span {
+                    font-size: 50px;
+                    position: relative;
+                    z-index: 2;
+                    &::after{
+                        content: "";
+                        position: absolute;
+                        left: 8px;
+                        bottom: 0;
+                        height: 20px;
+                        width: 100%;
+                        background: $primaryColor;
+                        z-index: -1;
+                    }
+                }
+            }
+            span{
+            }
         }
         .photo {
             img {
                 max-width: 300px;
-                border-radius: 10px;
                 @media screen and (max-width: 320px){
                     max-width: 257px;
                 }
