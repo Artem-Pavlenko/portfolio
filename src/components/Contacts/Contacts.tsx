@@ -4,6 +4,7 @@ import Title from "../../common/common components/Title/Title";
 import {useForm} from "react-hook-form";
 import * as yup from "yup";
 import {yupResolver} from "@hookform/resolvers/yup";
+import {sendMess} from "../../features/sendMess";
 
 
 type FormType = {
@@ -23,8 +24,8 @@ const Contacts = () => {
     })
 
     const onSubmit = (data: FormType) => {
-        alert(JSON.stringify(data))
         reset()
+        sendMess(data.name, data["your email"], data.text)
     }
     errors["your email"] && console.log(errors)
 
