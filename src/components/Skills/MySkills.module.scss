@@ -3,7 +3,7 @@
 
 .skillsBlock {
     background-color: $bgSecondary;
-    min-height: 80vh;
+    min-height: 100vh;
     .skillsContainer {
         @include container();
         flex-direction: column;
