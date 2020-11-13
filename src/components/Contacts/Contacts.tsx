@@ -41,7 +41,7 @@ const Contacts = () => {
                         {errors["your email"] && <span>{errors["your email"].message}</span>}
                         <textarea name="text" ref={register({required: true})} placeholder={"message"}/>
                     </div>
-                    <input type="submit" value="send"/>
+                    <input type="submit" value="send" />
                 </form>
             </div>
         </div>
