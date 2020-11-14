@@ -39,9 +39,9 @@ const Contacts = () => {
                     <div className={s.fields}>
                         <input name="name" ref={register({required: true})} type="text" placeholder={"Name"}/>
                         {errors.name && <span>{errors.name.message}</span>}
-                        <input name="your email" ref={register({required: true})} type="text" placeholder={"email"}/>
+                        <input name="your email" ref={register({required: true})} type="text" placeholder={"Email"}/>
                         {errors["your email"] && <span>{errors["your email"].message}</span>}
-                        <textarea name="text" ref={register({required: true})} placeholder={"message"}/>
+                        <textarea name="text" ref={register({required: true})} placeholder={"Message"}/>
                     </div>
                     <input ref={inRef} type="submit" value="send"/>
                     <a onClick={() => inRef && inRef.current && inRef.current.click()}>send</a>

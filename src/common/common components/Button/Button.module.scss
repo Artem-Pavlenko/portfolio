@@ -12,6 +12,7 @@
   outline: none;
   position: relative;
   z-index: 0;
+  text-decoration: none;
   &::after {
     content: "";
     position: absolute;
@@ -23,7 +24,7 @@
     transition: all .2s ease-in-out;
   }
   &:hover {
-    text-transform: none;
+    text-decoration: none;
     color: $textColor;
     &::after {
       width: 100%;

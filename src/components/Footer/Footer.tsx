@@ -3,6 +3,7 @@ import s from "./Footer.module.scss";
 import instagram from "../../assets/instagram.svg"
 import facebook from "../../assets/facebook.svg"
 import gmail from "../../assets/gmail.svg"
+import SocialLink from "./SocialLink/SocilaLink";
 
 const Footer = () => {
     return (
@@ -12,15 +13,9 @@ const Footer = () => {
                     <h2>Artem Pavlenko</h2>
                 </a>
                 <div className={s.socialNet}>
-                    <a href="https://www.instagram.com/artem_ww/">
-                        <img src={instagram} alt=""/>
-                    </a>
-                    <a href="https://www.facebook.com/pavel.tcs/">
-                        <img src={facebook} alt=""/>
-                    </a>
-                    <a href="mailto: artemdevakk@gmail.com">
-                        <img src={gmail} alt=""/>
-                    </a>
+                    <SocialLink href={"https://www.instagram.com/artem_ww/"} imgSrc={instagram} />
+                    <SocialLink href={"https://www.facebook.com/pavel.tcs/"} imgSrc={facebook} />
+                    <SocialLink href={"mailto: artemdevakk@gmail.com"} imgSrc={gmail} />
                 </div>
                 <span>All rights reserved</span>
             </div>

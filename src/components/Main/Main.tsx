@@ -7,12 +7,12 @@ const Main = () => {
         <div className={s.mainBlock}>
             <div className={s.mainContainer}>
                 <div className={s.text}>
-                    <span>Hello World !</span>
-                    <h1>
+                    <span>Hi There</span>
+                    <span>
                         I am
                         <span> Artem Pavlenko</span>
-                    </h1>
-                    <span>A Front-end Developer</span>
+                    </span>
+                    <h1>Frontend Developer.</h1>
                 </div>
                 <div className={s.photo}>
                     <img src={MyPhoto} alt=""/>
