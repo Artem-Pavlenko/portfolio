@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useRef} from "react";
 import s from "./Contacts.module.scss";
 import Title from "../../common/common components/Title/Title";
 import {useForm} from "react-hook-form";
@@ -14,6 +14,8 @@ type FormType = {
 }
 
 const Contacts = () => {
+
+    const inRef = useRef<HTMLInputElement>(null)
 
     const schemaLogin = yup.object().shape({
         "your email": yup.string().required().email(),
@@ -41,7 +43,8 @@ const Contacts = () => {
                         {errors["your email"] && <span>{errors["your email"].message}</span>}
                         <textarea name="text" ref={register({required: true})} placeholder={"message"}/>
                     </div>
-                    <input type="submit" value="send" />
+                    <input ref={inRef} type="submit" value="send"/>
+                    <a onClick={() => inRef && inRef.current && inRef.current.click()}>send</a>
                 </form>
             </div>
         </div>

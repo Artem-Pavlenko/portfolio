@@ -1,5 +1,6 @@
 @import "src/common/styles/sass/mixins";
 @import "src/common/styles/sass/variables";
+@import "src/common/common components/Button/Button.module";
 
 .contactsBlock {
     min-height: 50vh;
@@ -32,13 +33,17 @@
                     margin-bottom: 0;
                     height: 82px;
                 }
+                span {
+                    color: $textColor;
+                }
             }
             input[type="submit"] {
-                margin: 10px;
-                width: 140px;
-                height: 60px;
-                font-size: 19px;
-                border-radius: 10px;
+                display: none;
+            }
+            a {
+                margin-top: 15px;
+                @extend .btn;
+                cursor: pointer;
             }
         }
     }
