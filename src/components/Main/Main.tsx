@@ -1,6 +1,7 @@
 import React from "react";
 import s from "./Main.module.scss"
 import MyPhoto from "../../assets/photo_Artem.jpg"
+import ReactTypingEffect from 'react-typing-effect';
 
 const Particles = require('react-particles-js')
 const Fade = require('react-reveal/Fade')
@@ -26,8 +27,9 @@ const Main = () => {
                 <div className={s.mainContainer}>
                     <div className={s.text}>
                         <span>Hi There</span>
-                        <span>I am Artem <span> Pavlenko</span></span>
-                        <h1>Frontend Developer.</h1>
+                        <span>I am Artem <span className={s.lastName}> Pavlenko</span></span>
+                        {/*<h1>Frontend Developer.</h1>*/}
+                        <div><ReactTypingEffect text={'Frontend Developer.'}/></div>
                     </div>
 
                     <div className={s.photo}>

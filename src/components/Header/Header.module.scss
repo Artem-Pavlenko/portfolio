@@ -10,4 +10,7 @@
     position: fixed;
     z-index: 10;
     opacity: .7;
+    @media screen and (max-width: 1024px){
+        justify-content: center;
+    }
 }

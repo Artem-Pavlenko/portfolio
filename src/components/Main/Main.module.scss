@@ -38,7 +38,7 @@
                     letter-spacing: 5px;
                     margin: 10px 0;
                 }
-                span {
+                span.lastName {
                     @include text($TextFontFamily, 1.2, 50px, $textColor);
                     letter-spacing: 5px;
                     position: relative;
@@ -54,6 +54,9 @@
                         z-index: -1;
                     }
                 }
+            }
+            div span {
+                @include text($TextFontFamily, 1.2, 40px, $textColor);
             }
             //h1{
             //    font-size: 50px;

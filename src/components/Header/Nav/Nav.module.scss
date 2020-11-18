@@ -1,11 +1,15 @@
+@import "src/common/styles/sass/variables";
+
 .nav {
-    border: 1px dashed orangered;
     display: flex;
-    width: 30%;
+    width: 400px;
     justify-content: space-evenly;
     flex-wrap: wrap;
     a {
         text-decoration: none;
+        text-transform: uppercase;
+        color: $textColor;
+        opacity: 1;
     }
 }
 

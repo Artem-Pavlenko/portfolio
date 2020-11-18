@@ -6,10 +6,11 @@ import gmail from "../../assets/gmail.svg"
 import SocialLink from "./SocialLink/SocilaLink";
 
 const Fade = require('react-reveal/Fade')
+const Slide = require('react-reveal/Slide')
 
 const Footer = () => {
     return (
-        <Fade>
+        <Slide bottom cascade>
             <div className={s.footerBlock}>
                 <div className={s.footerContainer}>
                     <a href="#">
@@ -23,7 +24,7 @@ const Footer = () => {
                     <span>All rights reserved</span>
                 </div>
             </div>
-        </Fade>
+        </Slide>
     )
 }
 
