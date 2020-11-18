@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d2a190fd.chunk.css",
-    "main.js": "/portfolio/static/js/main.dc9bd3ff.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.dc9bd3ff.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.3538b044.chunk.css",
+    "main.js": "/portfolio/static/js/main.4f7a2284.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.4f7a2284.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.f78dce42.chunk.js": "/portfolio/static/js/2.f78dce42.chunk.js",
-    "static/js/2.f78dce42.chunk.js.map": "/portfolio/static/js/2.f78dce42.chunk.js.map",
+    "static/js/2.c4f4b351.chunk.js": "/portfolio/static/js/2.c4f4b351.chunk.js",
+    "static/js/2.c4f4b351.chunk.js.map": "/portfolio/static/js/2.c4f4b351.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.6d4bafe59f29348c908c464309008f3a.js": "/portfolio/precache-manifest.6d4bafe59f29348c908c464309008f3a.js",
+    "precache-manifest.50d615e2f0a5b4df488e971c6305dfe7.js": "/portfolio/precache-manifest.50d615e2f0a5b4df488e971c6305dfe7.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.d2a190fd.chunk.css.map": "/portfolio/static/css/main.d2a190fd.chunk.css.map",
-    "static/js/2.f78dce42.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f78dce42.chunk.js.LICENSE.txt",
-    "static/media/29063381_2026003124336080_1469933082483901931_n.jpg": "/portfolio/static/media/29063381_2026003124336080_1469933082483901931_n.5c192f53.jpg",
+    "static/css/main.3538b044.chunk.css.map": "/portfolio/static/css/main.3538b044.chunk.css.map",
+    "static/js/2.c4f4b351.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c4f4b351.chunk.js.LICENSE.txt",
     "static/media/ToDo.jpg": "/portfolio/static/media/ToDo.e7d4b6fa.jpg",
     "static/media/css.svg": "/portfolio/static/media/css.55338d57.svg",
     "static/media/Remote.module.scss": "/portfolio/static/media/emile-perron-xrVDYZRGdw4-unsplash.875a7bd5.jpg",
@@ -20,13 +19,14 @@
     "static/media/gmail.svg": "/portfolio/static/media/gmail.b8dd0f43.svg",
     "static/media/instagram.svg": "/portfolio/static/media/instagram.5b23a837.svg",
     "static/media/people2.jpg": "/portfolio/static/media/people2.05ae4838.jpg",
+    "static/media/photo_Artem.jpg": "/portfolio/static/media/photo_Artem.d3f29e6c.jpg",
     "static/media/react.svg": "/portfolio/static/media/react.eab76719.svg",
     "static/media/typescript.svg": "/portfolio/static/media/typescript.2dcf8108.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.f78dce42.chunk.js",
-    "static/css/main.d2a190fd.chunk.css",
-    "static/js/main.dc9bd3ff.chunk.js"
+    "static/js/2.c4f4b351.chunk.js",
+    "static/css/main.3538b044.chunk.css",
+    "static/js/main.4f7a2284.chunk.js"
   ]
 }
