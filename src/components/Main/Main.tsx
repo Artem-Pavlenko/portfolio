@@ -23,22 +23,23 @@ const Main = () => {
 
     return (
         <Fade big>
-            <div className={s.mainBlock}>
+            <div id='home' className={s.mainBlock}>
                 <Particles parems={particlesParams} className={s.particles}/>
                 <div className={s.mainContainer}>
                     <div className={s.text}>
                         <span>Hi There</span>
                         <span>I am Artem <span className={s.lastName}> Pavlenko</span></span>
                         {/*<h1>Frontend Developer.</h1>*/}
-                        <div><ReactTypingEffect text={'Frontend Developer.'}/></div>
+                        <div><ReactTypingEffect text={'Frontend Developer.'} /></div>
                     </div>
-                    <div className={s.photo}>
-                        <div>
-                            <Tilt>
-                                <img src={MyPhoto} alt=""/>
-                            </Tilt>
+                        <div className={s.photo}>
+                            <div>
+                                <Tilt>
+                                    <img src={MyPhoto} alt=""/>
+                                </Tilt>
+                            </div>
                         </div>
-                    </div>
+
                 </div>
             </div>
         </Fade>

@@ -36,7 +36,7 @@ const Contacts = () => {
 
     return (
         <Fade>
-            <div className={s.contactsBlock}>
+            <div id='contacts' className={s.contactsBlock}>
                 <div className={s.contactsContainer}>
                     <form action="" onSubmit={handleSubmit(onSubmit)}>
                         <Title title={"contacts"}/>

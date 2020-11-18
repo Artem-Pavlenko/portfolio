@@ -15,7 +15,7 @@ let ReactJS = "React makes it painless to create interactive UIs. Design simple 
 const MySkills = () => {
     return (
         <Fade>
-            <div className={s.skillsBlock}>
+            <div id='skills' className={s.skillsBlock}>
                 <div className={s.skillsContainer}>
                     <Title title={"skills"}/>
                     <div className={s.skills}>
