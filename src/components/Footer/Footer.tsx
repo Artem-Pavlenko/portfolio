@@ -10,7 +10,7 @@ const Slide = require('react-reveal/Slide')
 
 const Footer = () => {
     return (
-        <Slide bottom cascade>
+        <Fade>
             <div className={s.footerBlock}>
                 <div className={s.footerContainer}>
                     <a href="#">
@@ -24,7 +24,7 @@ const Footer = () => {
                     <span>All rights reserved</span>
                 </div>
             </div>
-        </Slide>
+        </Fade>
     )
 }
 
