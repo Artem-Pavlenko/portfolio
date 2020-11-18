@@ -1,8 +1,7 @@
 import React from "react";
 import s from "./Nav.module.scss"
+import {Link, animateScroll as scroll} from "react-scroll";
 
-import { Link, animateScroll as scroll } from "react-scroll";
-// const {Link} = require("react-scroll")
 
 const Nav = () => {
     return (
@@ -12,8 +11,7 @@ const Nav = () => {
                 activeClass={s.active}
                 spy={true}
                 smooth={true}
-                duration={500}
-            >Home</Link>
+                duration={500}>Home</Link>
             <Link to={'skills'}
                   activeClass={s.active}
                   spy={true}
@@ -32,10 +30,6 @@ const Nav = () => {
                   smooth={true}
                   duration={500}
                   offset={-60}>Contacts</Link>
-            {/*<a href="#">Home</a>*/}
-            {/*<a href="#skills">Skills</a>*/}
-            {/*<a href="#projects">Projects</a>*/}
-            {/*<a href="#contacts">Contacts</a>*/}
         </div>
     )
 }

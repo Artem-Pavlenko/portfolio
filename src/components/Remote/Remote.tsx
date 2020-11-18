@@ -2,6 +2,8 @@ import React from "react";
 import s from "./Remote.module.scss";
 import {Fade} from "react-awesome-reveal";
 
+
+
 const Remote = () => {
     return (
         <Fade>

@@ -10,6 +10,10 @@
         text-transform: uppercase;
         color: $textColor;
         opacity: 1;
+        cursor: pointer;
+    }
+    a.active {
+        color: $primaryColor;
     }
 }
 
