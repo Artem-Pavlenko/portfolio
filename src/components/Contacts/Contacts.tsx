@@ -7,6 +7,9 @@ import {yupResolver} from "@hookform/resolvers/yup";
 import {sendMess} from "../../features/sendMess";
 
 
+const Fade = require('react-reveal/Fade')
+
+
 type FormType = {
     name: string
     "your email": string
@@ -32,22 +35,25 @@ const Contacts = () => {
     errors["your email"] && console.log(errors)
 
     return (
-        <div className={s.contactsBlock}>
-            <div className={s.contactsContainer}>
-                <form action="" onSubmit={handleSubmit(onSubmit)}>
-                    <Title title={"contacts"}/>
-                    <div className={s.fields}>
-                        <input name="name" ref={register({required: true})} type="text" placeholder={"Name"}/>
-                        {errors.name && <span>{errors.name.message}</span>}
-                        <input name="your email" ref={register({required: true})} type="text" placeholder={"Email"}/>
-                        {errors["your email"] && <span>{errors["your email"].message}</span>}
-                        <textarea name="text" ref={register({required: true})} placeholder={"Message"}/>
-                    </div>
-                    <input ref={inRef} type="submit" value="send"/>
-                    <a onClick={() => inRef && inRef.current && inRef.current.click()}>send</a>
-                </form>
+        <Fade>
+            <div className={s.contactsBlock}>
+                <div className={s.contactsContainer}>
+                    <form action="" onSubmit={handleSubmit(onSubmit)}>
+                        <Title title={"contacts"}/>
+                        <div className={s.fields}>
+                            <input name="name" ref={register({required: true})} type="text" placeholder={"Name"}/>
+                            {errors.name && <span>{errors.name.message}</span>}
+                            <input name="your email" ref={register({required: true})} type="text"
+                                   placeholder={"Email"}/>
+                            {errors["your email"] && <span>{errors["your email"].message}</span>}
+                            <textarea name="text" ref={register({required: true})} placeholder={"Message"}/>
+                        </div>
+                        <input ref={inRef} type="submit" value="send"/>
+                        <a onClick={() => inRef && inRef.current && inRef.current.click()}>send</a>
+                    </form>
+                </div>
             </div>
-        </div>
+        </Fade>
     )
 }
 

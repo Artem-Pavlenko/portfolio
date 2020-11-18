@@ -5,6 +5,7 @@ import Title from "../../common/common components/Title/Title";
 import ts from "../../assets/typescript.svg"
 import reactIcon from "../../assets/react.svg"
 import css from "../../assets/css.svg"
+import {Fade} from "react-awesome-reveal";
 
 
 let TS = "TypeScript is an open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. TypeScript is designed for development of large applications and transcompiles to JavaScript."
@@ -13,16 +14,18 @@ let ReactJS = "React makes it painless to create interactive UIs. Design simple 
 
 const MySkills = () => {
     return (
-        <div className={s.skillsBlock}>
-            <div className={s.skillsContainer}>
-                <Title title={"skills"}/>
-                <div className={s.skills}>
-                    <Skill title={"TS"} description={TS} icon={ts}/>
-                    <Skill title={"CSS"} description={CSS} icon={css}/>
-                    <Skill title={"React"} description={ReactJS} icon={reactIcon}/>
+        <Fade>
+            <div className={s.skillsBlock}>
+                <div className={s.skillsContainer}>
+                    <Title title={"skills"}/>
+                    <div className={s.skills}>
+                        <Skill title={"TS"} description={TS} icon={ts}/>
+                        <Skill title={"CSS"} description={CSS} icon={css}/>
+                        <Skill title={"React"} description={ReactJS} icon={reactIcon}/>
+                    </div>
                 </div>
             </div>
-        </div>
+        </Fade>
     )
 }
 

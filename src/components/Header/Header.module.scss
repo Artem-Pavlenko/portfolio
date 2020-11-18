@@ -1,9 +1,13 @@
 @import "src/common/styles/sass/variables";
 
 .headerBlock {
-    height: 80px;
+    height: 60px;
+    width: 100%;
     background-color: $bgSecondary;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: fixed;
+    z-index: 10;
+    opacity: .7;
 }
