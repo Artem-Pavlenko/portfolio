@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.38fd06e6.chunk.css",
-    "main.js": "/portfolio/static/js/main.d575e209.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.d575e209.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.664463d7.chunk.css",
+    "main.js": "/portfolio/static/js/main.9f15e490.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.9f15e490.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.00d64786.chunk.js": "/portfolio/static/js/2.00d64786.chunk.js",
-    "static/js/2.00d64786.chunk.js.map": "/portfolio/static/js/2.00d64786.chunk.js.map",
+    "static/js/2.de969d69.chunk.js": "/portfolio/static/js/2.de969d69.chunk.js",
+    "static/js/2.de969d69.chunk.js.map": "/portfolio/static/js/2.de969d69.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.8f9dff2e2cce0ccd4b5aea1fd9e05618.js": "/portfolio/precache-manifest.8f9dff2e2cce0ccd4b5aea1fd9e05618.js",
+    "precache-manifest.b77699596af4b64e4e1081bd26bd7988.js": "/portfolio/precache-manifest.b77699596af4b64e4e1081bd26bd7988.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.38fd06e6.chunk.css.map": "/portfolio/static/css/main.38fd06e6.chunk.css.map",
-    "static/js/2.00d64786.chunk.js.LICENSE.txt": "/portfolio/static/js/2.00d64786.chunk.js.LICENSE.txt",
+    "static/css/main.664463d7.chunk.css.map": "/portfolio/static/css/main.664463d7.chunk.css.map",
+    "static/js/2.de969d69.chunk.js.LICENSE.txt": "/portfolio/static/js/2.de969d69.chunk.js.LICENSE.txt",
+    "static/media/CV_Artem_Pavlenko.pdf": "/portfolio/static/media/CV_Artem_Pavlenko.058f8a98.pdf",
     "static/media/ToDo.jpg": "/portfolio/static/media/ToDo.e7d4b6fa.jpg",
     "static/media/css.svg": "/portfolio/static/media/css.55338d57.svg",
+    "static/media/cv.svg": "/portfolio/static/media/cv.39aff6b1.svg",
     "static/media/facebook.svg": "/portfolio/static/media/facebook.57d3f125.svg",
     "static/media/gmail.svg": "/portfolio/static/media/gmail.b8dd0f43.svg",
     "static/media/instagram.svg": "/portfolio/static/media/instagram.5b23a837.svg",
@@ -24,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.00d64786.chunk.js",
-    "static/css/main.38fd06e6.chunk.css",
-    "static/js/main.d575e209.chunk.js"
+    "static/js/2.de969d69.chunk.js",
+    "static/css/main.664463d7.chunk.css",
+    "static/js/main.9f15e490.chunk.js"
   ]
 }
