@@ -4,9 +4,7 @@ import instagram from "../../assets/instagram.svg"
 import facebook from "../../assets/facebook.svg"
 import gmail from "../../assets/gmail.svg"
 import SocialLink from "./SocialLink/SocilaLink";
-import {BrowserRouter, Link} from "react-router-dom";
-// @ts-ignore
-import cv from "../../assets/CV/CV_Artem_Pavlenko.pdf"
+import {BrowserRouter} from "react-router-dom";
 
 const Fade = require('react-reveal/Fade')
 const Slide = require('react-reveal/Slide')
@@ -22,9 +20,6 @@ const Footer = () => {
                     <a href="#">
                         <h2>Artem Pavlenko</h2>
                     </a>
-                    <div>
-                        <Link to={require('../../assets/CV/CV_Artem_Pavlenko.pdf')} target={'_blank'} download>download CV</Link>
-                    </div>
                     <div className={s.socialNet}>
                         <SocialLink href={"https://www.instagram.com/artem_ww/"} imgSrc={instagram}/>
                         <SocialLink href={"https://www.facebook.com/pavel.tcs/"} imgSrc={facebook}/>
