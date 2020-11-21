@@ -58,24 +58,6 @@
             div span {
                 @include text($TextFontFamily, 1.2, 20px, $textColor);
             }
-            //h1{
-            //    font-size: 50px;
-            //    span {
-            //        font-size: 50px;
-            //        position: relative;
-            //        z-index: 2;
-            //        &::after{
-            //            content: "";
-            //            position: absolute;
-            //            left: 8px;
-            //            bottom: 0;
-            //            height: 20px;
-            //            width: 100%;
-            //            background: $primaryColor;
-            //            z-index: -1;
-            //        }
-            //    }
-            //}
         }
         .photo {
             position: relative;
@@ -113,7 +95,6 @@
                 top: -15px;
                 z-index: -1;
             }
-
         }
     }
 }
