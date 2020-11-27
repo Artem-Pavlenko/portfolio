@@ -22,13 +22,14 @@ const MyProjects = () => {
                     <Title title={'projects'}/>
                     <div className={s.projects}>
                         <Project projectName={'Social Network'}
-                                 projectDescription={"Social network for finding parties and meeting new people"}
+                                 projectDescription={'Social network for finding parties and meeting new people'}
                                  style={socialNetworkStyle}
                                  linkProject='https://artem-pavlenko.github.io/social_network'
                         />
                         <Project projectName={'Todo list'}
-                                 projectDescription={"To-do or task list. With the ability to control execution, edit tasks and lists"}
+                                 projectDescription={'To-do or task list. With the ability to control execution, edit tasks and lists'}
                                  style={todoStyle}
+                                 linkProject={'https://artem-pavlenko.github.io/TodoList/'}
                         />
                     </div>
                 </div>
