@@ -17,10 +17,11 @@ const Remote = () => {
                         <div className={s.email}>
                             <h3><a href="mailto: artemdevakk@gmail.com">ArtemDevAkk@gmail.com</a></h3>
                             <h4>Tel: +380995202588</h4>
-                            <div className={s.cv}><Link to={require('../../assets/CV/CV_Artem_Pavlenko.pdf')} target={'_blank'}
-                                       download>
-                                <img src={cvIcon} alt="cv"/>
-                            </Link></div>
+                            <div className={s.cv}>
+                                <Link to={require('../../assets/CV/CV_Artem_Pavlenko.pdf')} target={'_blank'} download>
+                                    <img src={cvIcon} alt="cv"/>
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </div>
