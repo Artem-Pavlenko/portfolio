@@ -7,7 +7,6 @@ import SocialLink from "./SocialLink/SocilaLink";
 import {BrowserRouter} from "react-router-dom";
 
 const Fade = require('react-reveal/Fade')
-const Slide = require('react-reveal/Slide')
 
 
 
